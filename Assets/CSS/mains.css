@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Josefin+Sans|Lobster|Raleway');
+
+
+body {
+  background-color: white;
+  margin: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.header {
+  background: ghostwhite;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: -1px;
+  width: 100%;
+  height: 52px;
+  margin: 0;
+}
+
+.wrapper {}
+
+nav {
+  float: right;
+}
+
+nav ul {}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  transition-delay: 0.2s;
+}
+
+nav ul li:hover {
+  background: cyan;
+}
+
+nav ul li a {
+  display: block;
+  text-align: center;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-family: courier, Times, sans-serif;
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 10px;
+  border-bottom: 1px solid darkblue;
+}
+
+.jumbo {
+  width: 100%;
+  position: relative;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../Images/lake.jpg"); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.logo {
+  width: 75%;
+  height: 100px;
+  background-image: url("../Images/logo.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  border: 5px solid white;
+}
+
+hr {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.quote {
+  width: 100%;
+  height: 600px;
+  line-height: 200%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #d5ffe0;
+}
+
+.paraQ {
+  text-align: right;
+}
+
+.about {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  background-image: url(../Images/river.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.aboutLogo {
+  
+  width: 35%;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  margin-left: -20%;
+  text-align: center;
+  border: 2px solid white;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  text-decoration: underline;
+}
+
+.aboutDesc {
+  width: 100%;
+  height: 600px;
+  background: #d5ffe0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutDesc p {
+  line-height: 200%;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.projects {
+  width: 100%;
+  height: 500px;
+  background-image: url('../Images/project-bg.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.vidContainer {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.proLogo {
+  
+  width: 35%;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  margin-left: -20%;
+  text-align: center;
+  border: 2px solid white;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  text-decoration: underline;
+}
+
+.proEx {
+  width: 100%;
+  height: 600px;
+  background: #d5ffe0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conLogo {
+  
+  width: 35%;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  margin-left: -20%;
+  text-align: center;
+  border: 2px solid white;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  text-decoration: underline;
+}
+
+.contactForm {
+  width: 100%;
+  height: 600px;
+  background: #d5ffe0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  width: 100%;
+  height: 500px;
+}
+
+.conInfo {
+  width: 30%;
+  border: 1px solid black;
+  padding: 25px;
+  border-radius: 25px;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  font-family: Acme, sans-serif;
+}
+
+#fullName {
+  text-align: center;
+}
+
+#email {
+  text-align: center;
+}
+
+#comment {
+  text-align: center;
+}
+
+textarea {
+  height: 100px;
+}
+
+input[type=text], input[type=email], textarea {
+  width: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 10px 16px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+}
+
+input[type=text]:hover, input[type=email]:hover, textarea:hover {
+  background: cyan;
+}
+
+#submit {
+  width: 100%;
+  text-align: center;
+  background: black;
+  color: white;
+  padding: 8px 0;
+  cursor: pointer;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+  transition-duration: 0.4s;
+}
+
+#submit:hover {
+  background: cyan;
+  color: black;
+}
+
+footer {
+  position: relative;
+  background: #171717;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.emailContact {
+  font-size: 10px;
+  letter-spacing: 9px;
+  position: absolute;
+  top: 50%;
+  margin-top: -5px;
+  height: 10px;
+  color: grey;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
