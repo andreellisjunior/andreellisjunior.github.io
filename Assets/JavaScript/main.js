@@ -30,15 +30,15 @@ $(document).ready(function(){
 
     $('.aboutLogo').css({
       'transform' : 'translate(0px, '+ wScroll*0.225 +'%)'
-    })
+    });
 
     $('.proLogo').css({
       'transform' : 'translate(0px, '+ +(wScroll*0.06) +'%)'
-    })
+    });
 
     $('.conLogo').css({
       'transform' : 'translate(0px, '+ +(wScroll*0.04) +'%)'
-    })
+    });
 
 });
-})
+});

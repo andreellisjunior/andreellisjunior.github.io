@@ -253,10 +253,9 @@ input[type=text]:hover, input[type=email]:hover, textarea:hover {
   color: black;
 }
 
-footer {
-  position: relative;
+.foot {
   background: #171717;
-  height: 100px;
+  height: 200px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -266,10 +265,9 @@ footer {
 .emailContact {
   font-size: 10px;
   letter-spacing: 9px;
-  position: absolute;
-  top: 50%;
-  margin-top: -5px;
-  height: 10px;
+  width: 25%;
+  text-align: center;
+  margin-top: 40%;
   color: grey;
   font-family: 'Josefin Sans', sans-serif;
 }
