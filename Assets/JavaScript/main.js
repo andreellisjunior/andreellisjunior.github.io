@@ -33,11 +33,11 @@ $(document).ready(function(){
     });
 
     $('.proLogo').css({
-      'transform' : 'translate(0px, '+ +(wScroll*0.06) +'%)'
+      'transform' : 'translate(0px, '+ (+(wScroll*0.06)) +'%)'
     });
 
     $('.conLogo').css({
-      'transform' : 'translate(0px, '+ +(wScroll*0.04) +'%)'
+      'transform' : 'translate(0px, '+ (+(wScroll*0.04)) +'%)'
     });
 
 });
