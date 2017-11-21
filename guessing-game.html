@@ -12,8 +12,17 @@
     <body>
         <div class="head-message"><h1>I'm Thinking Of A Number Between 1 and 10...</h1>
         </div>
-        <div class="container"><input type="text" name="answer" placeholder="answer" ></div>
-        <div class="container"><button class="submit" onclick="return answer();">COMPARE</button></div>
+        <div class="container"><input id="answer"class="answer" type="number" name="answer" placeholder="What's My Number?"></div>
+        <div class="container"><button id="submit" class="submit" onclick="answer()">COMPARE</button></div>
+
+        <div id="result"class="result"></div>
+        <div class="message">Choose A New Number To Play Again!</div>
+        <a href="index.html"><div class="home">BACK</div></a>
+        
+
+
+        <script src="J-Query/jquery-3.js"></script>
+        <script src="Assets/JavaScript/guessing-game.js"></script>
     </body>
 
     </html>
