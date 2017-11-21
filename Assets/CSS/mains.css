@@ -153,6 +153,118 @@ h4 {
   align-items: center;
 }
 
+.proWrap {
+  width: 75%;
+  height: 600px;
+}
+
+.web, .games, .productivity {
+  width: 100%;
+  height: 50px;
+  background: rgb(68, 68, 68);
+  margin-top: 10%;
+  color: white;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:  'Josefin Sans', sans-serif;
+  transition-duration: 0.3s;
+}
+
+.web:hover, .games:hover, .productivity:hover {
+  background: cyan;
+  color: black;
+  cursor: pointer;
+}
+
+.websiteOptions {
+  background: rgb(68, 68, 68);
+  width: 100%;
+  height: 50px;
+  border-radius: 7px;
+  display: none;
+}
+
+.websiteOptions p {
+  display: block;
+  float: left;
+  width: 20%;
+  height: 100%;
+  margin-left: 4%;
+  margin-top: 0;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 0.2s;
+}
+
+.websiteOptions p:hover {
+  background: cyan;
+  color: black;
+  cursor: pointer;
+}
+
+.gameOptions {
+  background: rgb(68, 68, 68);
+  width: 100%;
+  height: 50px;
+  border-radius: 7px;
+  display: none;
+}
+
+.gameOptions p {
+  display: block;
+  float: left;
+  width: 20%;
+  height: 100%;
+  margin-left: 4%;
+  margin-top: 0;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 0.2s;
+}
+
+.gameOptions p:hover {
+  background: cyan;
+  color: black;
+  cursor: pointer;
+}
+
+.productivityOptions {
+  background: rgb(68, 68, 68);
+  width: 100%;
+  height: 50px;
+  border-radius: 7px;
+  display: none;
+}
+
+.productivityOptions p {
+  display: block;
+  float: left;
+  width: 20%;
+  height: 100%;
+  margin-left: 4%;
+  margin-top: 0;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 0.2s;
+}
+
+.productivityOptions p:hover {
+  background: cyan;
+  color: black;
+  cursor: pointer;
+}
+
 .conLogo {
   
   width: 35%;
@@ -255,7 +367,7 @@ input[type=text]:hover, input[type=email]:hover, textarea:hover {
 
 .foot {
   background: #171717;
-  height: 200px;
+  height: 250px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -267,7 +379,7 @@ input[type=text]:hover, input[type=email]:hover, textarea:hover {
   letter-spacing: 9px;
   width: 25%;
   text-align: center;
-  margin-top: 40%;
+  margin-top: 10em;
   color: grey;
   font-family: 'Josefin Sans', sans-serif;
 }

@@ -40,5 +40,18 @@ $(document).ready(function(){
       'transform' : 'translate(0px, '+ (+(wScroll*0.04)) +'%)'
     });
 
-});
+  });
+
+  $(".web").click(function () {
+    $(".websiteOptions").slideToggle();
+  });
+
+  $(".games").click(function () {
+    $(".gameOptions").slideToggle();
+  });
+
+  $(".productivity").click(function () {
+    $(".productivityOptions").slideToggle();
+  });
+
 });
