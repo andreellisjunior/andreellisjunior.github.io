@@ -7,7 +7,7 @@ body {
 }
 
 .jumbo {
-  width: 100%;
+  max-width: 100%;
   position: relative;
   height: 600px;
   display: flex;
@@ -22,18 +22,17 @@ body {
 }
 
 .logo {
-  width: 75%;
+  width: 100%;
   height: 100px;
-  background-image: url("../Images/logo.png");
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-  border: 5px solid white;
-}
-
-hr {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  text-decoration: underline;
 }
 
 .quote {
@@ -49,7 +48,7 @@ hr {
 }
 
 .paraQ {
-  text-align: right;
+  text-align: center;
 }
 
 .about {
@@ -65,14 +64,12 @@ hr {
 }
 
 .aboutLogo {
-  
-  width: 35%;
+  width: 100%;
   height: 100px;
-  position: absolute;
-  left: 50%;
-  margin-left: -20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  border: 2px solid white;
   color: white;
   font-weight: bolder;
   font-size: 20px;
@@ -121,14 +118,12 @@ hr {
 }
 
 .proLogo {
-  
-  width: 35%;
+  width: 100%;
   height: 100px;
-  position: absolute;
-  left: 50%;
-  margin-left: -20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  border: 2px solid white;
   color: white;
   font-weight: bolder;
   font-size: 20px;
@@ -266,14 +261,10 @@ h4 {
 }
 
 .conLogo {
-  
-  width: 35%;
+  width: auto;
   height: 100px;
   position: absolute;
-  left: 50%;
-  margin-left: -20%;
   text-align: center;
-  border: 2px solid white;
   color: white;
   font-weight: bolder;
   font-size: 20px;
@@ -300,13 +291,6 @@ h4 {
   border: 1px solid black;
   padding: 25px;
   border-radius: 25px;
-}
-
-.message {
-  color: red;
-  margin-left: 23%;
-  text-align: center;
-  font-family: 'Josefin Sans', sans-serif;
 }
 
 .container {
@@ -365,6 +349,16 @@ input[type=text]:hover, input[type=email]:hover, textarea:hover {
   color: black;
 }
 
+
+.message {
+  color: red;
+  margin-top: 5px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
 .foot {
   background: #171717;
   height: 250px;
@@ -377,9 +371,66 @@ input[type=text]:hover, input[type=email]:hover, textarea:hover {
 .emailContact {
   font-size: 10px;
   letter-spacing: 9px;
-  width: 25%;
+  width: 100vw;
   text-align: center;
   margin-top: 10em;
   color: grey;
   font-family: 'Josefin Sans', sans-serif;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+
+  .web {
+    text-align: center;
+  }
+
+  .websiteOptions {
+    display: none;
+    width: 100%;
+    height: 100px;
+  }
+
+  .websiteOptions p {
+    display: block;
+    width: 100%;
+    height: 10px;
+  }
+
+  .gameOptions {
+    display: none;
+    width: 100%;
+    height: 100px;
+  }
+
+  .gameOptions p {
+    display: block;
+    width: 100%;
+    height: 10px;
+  }
+
+  .productivityOptions {
+    display: none;
+    width: 100%;
+    height: 100px;
+  }
+
+  .productivityOptions p {
+    display: block;
+    width: 100%;
+    height: 10px;
+  }
+
+  .conInfo {
+    width: 100%;
+  }
+
+  .emailContact {
+    font-size: 15px;
+    letter-spacing: 0;
+    height: 15%;
+    text-align: center;
+    margin-top: 10em;
+    color: grey;
+    font-family: 'Josefin Sans', sans-serif;
+  }
 }

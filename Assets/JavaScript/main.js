@@ -16,17 +16,9 @@ $(document).ready(function(){
 
     var newScroll = $('.about').offset().top;
 
-    // $('.jumbo').css({
-    //   'transform' : 'translate(0px, '+ (wScroll*0.005) +'%)'
-    // });
-
     $('.logo').css({
       'transform' : 'translate(0px, '+ wScroll/2 +'%)'
     });
-
-    // $('.about').css({
-    //   'transform' : 'translate(0px, '+ +(wScroll*0.005) +'%)'
-    // });
 
     $('.aboutLogo').css({
       'transform' : 'translate(0px, '+ wScroll*0.225 +'%)'
@@ -37,7 +29,7 @@ $(document).ready(function(){
     });
 
     $('.conLogo').css({
-      'transform' : 'translate(0px, '+ (+(wScroll*0.04)) +'%)'
+      'transform' : 'translate(0px, '+ (+(wScroll*0.06)) +'%)'
     });
 
   });
