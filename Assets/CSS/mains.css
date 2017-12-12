@@ -352,7 +352,7 @@ input[type=text]:hover, input[type=email]:hover, textarea:hover {
 
 
 .message {
-  color: red;
+  color: green;
   margin-top: 5px;
   width: 100%;
   text-align: center;
