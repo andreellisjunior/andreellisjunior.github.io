@@ -44,6 +44,15 @@ label, .input {
   text-align: center;
 }
 
+a .btn-home {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: none;
+  background: white;
+  color: black;
+}
+
 button {
   cursor: pointer;
   height: 25px;
@@ -94,6 +103,15 @@ button {
     font-size: 12px;
     width: 50%;
     margin-left: 25%;
+  }
+
+  a .btn-home {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: none;
+    background: white;
+    color: black;
   }
 
 }
