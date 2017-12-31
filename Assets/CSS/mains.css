@@ -113,18 +113,6 @@ body {
   overflow: hidden;
 }
 
-.vidContainer {
-  width: 100%;
-  height: 500px;
-  position: relative;
-  top: 0;
-  left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
-
 .proLogo {
   width: 100%;
   height: 100px;
@@ -291,13 +279,25 @@ h4 {
   align-items: center;
 }
 
+.vidContainer {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
 .contact {
   width: 100%;
   height: 500px;
 }
 
 .conInfo {
-  width: 30%;
+  width: 40%;
   border: 1px solid black;
   padding: 25px;
   border-radius: 25px;
@@ -401,7 +401,7 @@ input[type=text]:hover, input[type=email]:hover, textarea:hover {
 
 }
 
-@media only screen and (min-width: 320px) and (max-width: 600px) {
+@media only screen and (min-width: 320px) and (max-width: 760px) {
 
   .proWrap {
     padding-top: 200px;
@@ -447,8 +447,23 @@ input[type=text]:hover, input[type=email]:hover, textarea:hover {
     height: 10px;
   }
 
-  .conInfo {
+  video {
+    visibility: hidden;
+  }
+
+  .vidContainer {
     width: 100%;
+    height: 500px;
+    background-image: url('../Images/bottomForest.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+  }
+
+  .conInfo {
+    width: 75%;
     margin: 0px 5px;
   }
 
