@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(241, 251, 255);
+  font-family: quicksand, sans-serif;
+  color: #333;
+}
+
+hr {
+  width: 75%;
+  margin: 50px auto;
+}
+
+h1 {
+  font-size: 30px;
+
+  margin: auto;
+  padding: 30px;
+  text-shadow: 7px 7px 10px;
+  text-align: center;
+}
+
+.container, .input {
+  background: rgb(226, 247, 255);
+}
+
+p {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 300%;
+}
+
+.input {
+  width: 100%;
+  height: 150px;
+  font-family: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin-left: 5px;
+  font-family: inherit;
+}
+
+.input input,
+.input button {
+  border-radius: 6px;
+  padding: 7px;
+  text-align: center;
+  transition-duration: 0.2s;
+}
+
+.input input:hover {
+  border-radius: 6px;
+  background: lightskyblue;
+}
+
+.input button:hover {
+  border-radius: 5px;
+  cursor: pointer;
+  background: grey;
+  color: white;
+}
+
+.section-C {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#result {
+  text-align: center;
+  width: 75%;
+  height: 300px;
+  color: black;
+  overflow: auto;
+  
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 768px) {
+  hr {
+    width: 50%;
+    color: #333;
+  }
+  .hr2 {
+    margin-top: 125px;
+  }
+
+  p {
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+  }
+  .container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #problem {
+    width: 25%;
+  }
+}
