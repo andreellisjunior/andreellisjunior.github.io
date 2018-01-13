@@ -85,9 +85,10 @@ button:active {
 }
 
 .score div {
+  font-size: 0.9rem;
   display: inline-block;
   text-align: center;
-  padding: 20px 30px;
+  padding: 20px 20px;
 }
 
 .score div:first-child {
@@ -125,6 +126,7 @@ button:active {
   }
 
   .section-C {
+    font-size: 1rem;
     width: 50%;
     margin: 0 auto;
   }
