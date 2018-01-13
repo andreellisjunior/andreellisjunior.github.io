@@ -419,8 +419,9 @@ input[type=text]:hover, input[type=email]:hover, textarea:hover {
 
   .websiteOptions p {
     display: block;
-    width: 100%;
-    height: 10px;
+    float: left;
+    width: inherit;
+    height: inherit;
   }
 
   .gameOptions {
@@ -431,8 +432,9 @@ input[type=text]:hover, input[type=email]:hover, textarea:hover {
 
   .gameOptions p {
     display: block;
-    width: 100%;
-    height: 10px;
+    float: left;
+    width: inherit;
+    height: inherit;
   }
 
   .productivityOptions {
@@ -443,8 +445,9 @@ input[type=text]:hover, input[type=email]:hover, textarea:hover {
 
   .productivityOptions p {
     display: block;
-    width: 100%;
-    height: 10px;
+    float: left;
+    width: inherit;
+    height: inherit;
   }
 
   video {

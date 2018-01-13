@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Rock, Paper, Scissors</title>
+  <link rel="stylesheet" href="Assets/CSS/rps.css">
+</head>
+
+<body>
+  <!-- Section A -->
+  <section class="section-A">
+    <div class="title">
+      <h1>Rock, Paper, Scissors</h1>
+    </div>
+  </section>
+  <!-- Section B  -->
+  <section class="section-B">
+    <div class="container">
+      <div class="title2">CHOOSE YOUR WEAPON</div>
+      <div id="results"></div>
+      <div id="weaponCon">
+        <input type="text" id="weapon" placeholder="Rock, Paper, Scissors">
+      </div>
+      <button type="submit" onclick="return game()">FIGHT!</button>
+    </div>
+  </section>
+
+  <!-- Section C  -->
+  <section class="section-C">
+    <div class="score">
+      <div>Your Score:
+        <span id="myScore">0</span>
+      </div>
+      <div>Computer Score:
+        <span id="opScore">0</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section D  -->
+  <section class="section-D">
+    <a href="index.html">
+      <div class="home">HOME</div>
+    </a>
+  </section>
+
+  <script src="J-Query/jquery-3.js"></script>
+  <script src="Assets/JavaScript/rps.js"></script>
+</body>
+
+</html>
