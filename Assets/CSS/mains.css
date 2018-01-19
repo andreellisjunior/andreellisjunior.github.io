@@ -415,6 +415,7 @@ input[type=text]:hover, input[type=email]:hover, textarea:hover {
     display: none;
     width: 100%;
     height: 100px;
+    overflow: auto;
   }
 
   .websiteOptions p {
@@ -428,6 +429,7 @@ input[type=text]:hover, input[type=email]:hover, textarea:hover {
     display: none;
     width: 100%;
     height: 100px;
+    overflow: auto;
   }
 
   .gameOptions p {
@@ -441,6 +443,7 @@ input[type=text]:hover, input[type=email]:hover, textarea:hover {
     display: none;
     width: 100%;
     height: 100px;
+    overflow: auto;
   }
 
   .productivityOptions p {

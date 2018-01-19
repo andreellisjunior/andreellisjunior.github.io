@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 110vh;
+  text-align: center;
+  background: url('../Images/desk.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3.5em;
+  color: whitesmoke;
+  text-shadow: 10px 10px 5px black;
+}
+
+.container {
+  width: 100%;
+
+}
+
+.calc-container {
+  border: 3px solid black;
+  border-radius: 15px;
+  background: rgb(179, 179, 179);
+  width: 250px;
+  height: 350px;
+  margin: 80px auto;
+  box-shadow: 0px 0px 0px 6px #fff;
+}
+
+#screen {
+  width: 75%;
+  border-radius: 5px;
+  margin-top: 15px;
+  padding: 7px;
+  font-size: 15px;
+  text-align: right;
+  font-weight: bold;
+
+}
+
+#keys {
+  border-radius: 5px;
+  cursor: pointer;
+  width: 45px;
+  height: 35px;
+  margin: 3px;
+  outline: 0;
+  box-shadow: 0px 0px 0px 1.5px #333;
+}
+
+#keys::-moz-focus-inner, #equal::-moz-focus-inner {
+  border: 0;
+}
+
+#equal {
+  border-radius: 5px;
+  height: 35px;
+  width: 100px;
+  margin-right: 6px;
+  margin-left: 4px;
+  box-shadow: 0px 0px 0px 1.5px #333;
+  outline: none;
+}
+
+.section-1 {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.home {
+  width: 100px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 15px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.home:hover {
+  transform: translateY(-10px);
+  background: #333;
+  color: #eee;
+}
