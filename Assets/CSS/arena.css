@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #222;
+  font-family: 'Jacques Francois Shadow', cursive;
+}
+
+.container {
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+  background: #222;
+}
+
+#txt1,
+#txt2,
+#txt3 {
+  display: none;
+  width: 100%;
+  height: 25%;
+  text-align: center;
+  font-weight: 100 !important;
+  font-size: 3.5em;
+  margin-top: 10%;
+  color: white;
+  opacity: 1;
+  font-family: 'Faster One', cursive;
+  letter-spacing: 5px;
+}
+
+img {
+  width: 100%;
+  height: 75%;
+}
+
+.next-screen {
+  display: none;
+  width: 100%;
+  height: 100vh;
+  background: url(/Assets/Images/sparks.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.title {
+  width: 100%;
+  letter-spacing: 20px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Bangers', cursive;
+}
+
+.HP-container {
+  width: 100%;
+  height: 5%;
+}
+
+#compHP {
+  float: right;
+  margin-top: 5px;
+}
+
+#playerHP, #compHP {
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+  color:  #ffffff;
+  font-weight: bolder;
+  font-size: 13px;
+  letter-spacing: 7px;
+}
+
+#pHealth {
+  color: green;
+  text-shadow: 0px 0px 2px #fff;
+}
+
+#cHealth {
+  color: red;
+  text-shadow: 0px 0px 2px #fff;
+}
+
+#message {
+  width: 100%;
+  text-align: center;
+  color: yellow;
+  font-weight: bolder;
+}
+
+#btn {
+  cursor: pointer;
+  position: relative;
+  bottom: 150px;
+  padding: 15px;
+  background: #333;
+  outline: none;
+  border: 3px solid whitesmoke;
+  color: whitesmoke;
+  font-weight: bolder;
+  border-radius: 10px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Jacques Francois Shadow', cursive;
+}
+
+#restart {
+  cursor: pointer;
+  position: relative;
+  bottom: 100px;
+  padding: 15px;
+  background: #333;
+  outline: none;
+  border: 3px solid whitesmoke;
+  color: whitesmoke;
+  font-weight: bolder;
+  border-radius: 10px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Jacques Francois Shadow', cursive;
+}
+
+#btn:hover, #restart:hover {
+  background: whitesmoke;
+  color:
+  #333;
+  border-color: #333;
+}
+
+.home-container {
+  position: relative;
+  bottom: 75px;
+  width: 100%;
+  text-align: center;
+}
+
+.home {
+  border-radius: 5px;
+  text-decoration: none;
+  color: whitesmoke;
+  cursor: pointer;
+  font-family: 'Bangers', cursive;
+}
+
+@media screen and (min-width: 600px) {
+  #playerHP, #compHP {
+    font-size: 30px;
+    height: 10%;
+  }
+
+  #message {
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    color: yellow;
+    font-weight: bolder;
+
+  }
+}

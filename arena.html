@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>The Arena</title>
+  <link rel="stylesheet" href="Assets/CSS/arena.css">
+  <link href="https://fonts.googleapis.com/css?family=Bangers|Faster+One|Jacques+Francois+Shadow" rel="stylesheet"> 
+</head>
+
+<body>
+  <div class="intro-container">
+    <div id="txt1">WELCOME</div>
+    <div id="txt2">TO</div>
+    <div id="txt3">THE ARENA</div>
+  </div>
+
+  <div id="test" class="next-screen">
+    <div class="title">
+      <h1>THE ARENA</h1>
+    </div>
+    <div class="HP-container">
+      <div id="playerHP">PLAYER
+        <span id="pHealth"></span>
+      </div>
+      <div id="compHP">
+        <span id="cHealth"></span> COMP</div>
+    </div>
+    <div id="message"></div>
+    <img src="Assets/Images/fighting.svg" alt="fighting figure">
+    <button id="btn" onclick="attack()">FIGHT!</button>
+    <button id="restart" hidden="true" onclick="restartGame()">RESTART</button>
+    <div class="home-container">
+      <a href="index.html" class="home">HOME</a>
+    </div>
+  </div>
+
+  <script src="J-Query/jquery-3.js"></script>
+  <script src="Assets/JavaScript/arena.js"></script>
+</body>
+
+</html>
