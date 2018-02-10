@@ -92,6 +92,7 @@ body {
 }
 
 .aboutDesc p {
+  padding: 20px;
   line-height: 200%;
   text-align: center;
   font-family: 'Josefin Sans', sans-serif;
@@ -178,7 +179,6 @@ h4 {
 }
 
 .websiteOptions p {
-  display: block;
   float: left;
   width: 20%;
   height: 100%;
@@ -207,7 +207,6 @@ h4 {
 }
 
 .gameOptions p {
-  display: block;
   float: left;
   width: 20%;
   height: 100%;
@@ -236,7 +235,6 @@ h4 {
 }
 
 .productivityOptions p {
-  display: block;
   float: left;
   width: 20%;
   height: 100%;
@@ -333,6 +331,8 @@ input[type=text], input[type=email], textarea {
   margin: 8px 0;
   text-align: center;
   box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   border: 1px solid black;
   border-radius: 10px;
   transition-duration: 0.4s;
@@ -470,7 +470,7 @@ input[type=text]:hover, input[type=email]:hover, textarea:hover {
 
   .conInfo {
     width: 75%;
-    margin: 0px 5px;
+    margin: 5px;
   }
 
   .emailContact {
