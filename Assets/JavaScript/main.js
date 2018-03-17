@@ -1,7 +1,7 @@
 function submit() {
   var name = document.getElementById("nameInput").value;
   var  email = document.getElementById("emailInput").value;
-  var  comment = document.getElementById("commentInnput").value;
+  var  comment = document.getElementById("commentInput").value;
   
     alert("Please fill in all required fields.");
 
